@@ -4,7 +4,7 @@
 source build/envsetup.sh
 
 # Select the build configuration
-lunch pixys_hanoip-ap1a-user
+lunch lineage_hanoip-ap1a-user
 
 # Build the target files package and otatools
 m target-files-package otatools
