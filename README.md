@@ -1,7 +1,7 @@
 # Generating the keys:
 On root directory of your rom, run:
 
-    git clone https://github.com/GenesisOS/scripts.git -b utopia-2.0 scripts
+    git clone https://github.com/isg32/sign_scripts.git scripts
     chmod +x scripts/generate_certs.sh
     ./scripts/generate_certs.sh
 
@@ -9,13 +9,13 @@ On root directory of your rom, run:
 You will need to the leave the passphrase blank and press Enter to generate keys without password.
 
     It will display something like this:
-    Enter password for '/home/baka_hokage/.android-certs/bluetooth' (blank for none; password will be visible):
+    Enter password for '/home/sapan/.android-certs/bluetooth' (blank for none; password will be visible):
 
 # Building & Signing the build:
 ### NOTE: Make sure to change device name in build_and_sign.sh (line no. 7)
 On root directory of your rom, run:
 
-    git clone https://github.com/GenesisOS/scripts.git -b utopia-2.0 scripts
+    git clone https://github.com/isg32/sign_scripts.git scripts
     chmod +x scripts/build_and_sign.sh
     ./scripts/build_and_sign.sh
 
